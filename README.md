@@ -65,7 +65,7 @@
 
 ---
 
-## Development Board Introduciton
+## Development Board Introduction
 ### AMB82-MINI overview
 <p><img width="50%" height="50%" src="https://www.amebaiot.com/wp-content/uploads/2023/03/amb82_mini.png"></p>
 
