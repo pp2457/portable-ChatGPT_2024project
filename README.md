@@ -1,4 +1,4 @@
-# portable_ChatGPT
+# portable-ChatGPT
 
 ## team workers：
 ```電機3B 01053104 游恩傑```
