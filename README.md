@@ -90,5 +90,5 @@ char server[] = "123.195.32.57";   // the server IP running HTTP server on PC
 
 ---
 ## Demo Video
-[![](https://markdown-videos-api.jorgenkh.no/youtube/7rfmXPqyLF0)](https://youtu.be/7rfmXPqyLF0)
+[![](https://youtube.com/shorts/9A391s-49-o?feature=shared)
 
