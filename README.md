@@ -520,7 +520,7 @@ if __name__ == "__main__":
 
 ---
 ## Demo Video
-[示範影片連結](https://youtube.com/shorts/9A391s-49-o?feature=share)
+[![](https://img.youtube.com/vi/9A391s-49-o/0.jpg)](https://www.youtube.com/shorts/9A391s-49-o)
 
 
 
