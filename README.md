@@ -1,6 +1,6 @@
 # portable-ChatGPT
 
-## Team Workers:
+## Team Workers
 ```電機3B 01053104 游恩傑```
 ```電機3B 01089001 陳宜真```
 ```電機3B 01153205 彭姸蓁```
