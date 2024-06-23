@@ -37,7 +37,7 @@
 
 ---
 ## System Diagram
-<p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
+<p><img width="50%" height="50%" src="https://github.com/pp2457/portable_ChatGPT/blob/85dcdfbe61561577165294c484b3548a1e87047e/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
 
 ---
 ## Flow Chart
