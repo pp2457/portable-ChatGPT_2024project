@@ -1,5 +1,12 @@
 # portable_ChatGPT
 
+## team workers：
+```電機3B 01053104 游恩傑```
+```電機3B 01089001 陳宜真```
+```電機3B 01153205 彭姸蓁```
+
+---
+
 ## Product Definition
 可攜式的ChatGPT裝置在設計上應該具有以下功能：<br>
 1. 語音交互: 能夠透過語音與使用者進行交互，讓使用者能夠自然地與ChatGPT進行對話。
@@ -28,6 +35,10 @@
 
 ---
 ## System Diagram
+<p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
+
+---
+## 流程圖
 <p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
 
 ---
