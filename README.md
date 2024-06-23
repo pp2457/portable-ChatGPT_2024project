@@ -8,6 +8,8 @@
 ---
 
 ## Product Definition
+使用 AMB82-mini 和 LCD Screen ILI9341 TFT，連接至伺服器並使用LLM（大規模語言模型）進行處理。
+
 可攜式的ChatGPT裝置在設計上應該具有以下功能：<br>
 1. 語音交互: 能夠透過語音與使用者進行交互，讓使用者能夠自然地與ChatGPT進行對話。
 2. 文字輸入: 除了語音交互外，也應該支援文字輸入，以便在需要時進行靜默操作或者在環境不適合語音交互時使用。
@@ -38,7 +40,7 @@
 <p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
 
 ---
-## 流程圖
+## Flow Chart
 <p><img width="50%" height="50%" src="https://github.com/rkuo2000/portable-ChatGPT/blob/main/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
 
 ---
