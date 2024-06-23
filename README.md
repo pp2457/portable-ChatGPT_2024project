@@ -90,5 +90,5 @@ char server[] = "123.195.32.57";   // the server IP running HTTP server on PC
 
 ---
 ## Demo Video
-[![](https://youtube.com/shorts/Q12DAMqjE6M?feature=shared)
+[示範影片連結](https://youtube.com/shorts/9A391s-49-o?feature=share)
 
