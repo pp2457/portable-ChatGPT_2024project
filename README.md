@@ -41,7 +41,7 @@
 
 ---
 ## Flow Chart
-<p><img width="50%" height="50%" src="https://github.com/pp2457/portable_ChatGPT/blob/d3523de57f00304110b467f539701af62c7ad2a1/assets/FlowChart.jpg></p>
+<p><img src="https://github.com/pp2457/portable_ChatGPT/blob/d3523de57f00304110b467f539701af62c7ad2a1/assets/FlowChart.jpg></p>
 
 ---
 ## Implementation
