@@ -21,7 +21,7 @@
 10. 連接性: 具有Wi-Fi或藍牙等連接功能，以便與互聯網或其他設備進行連接，從而擴展其功能或者進行遠程更新和管理。
 
 ---
-## 專題概述
+## Project Overview
 
 ### 內容
 旨在設計並實作一個智慧語音回覆系統。系統以AMB82-mini微控制器和ILI9341 TFT LCD顯示屏為硬體基礎，透過與伺服器的連接，使用先進的LLM進行語音處理和答案生成。最終目標是接受語音輸入並在顯示屏上顯示相應的回覆。
@@ -46,7 +46,7 @@
 本系統可應用於多種場景，包括但不限於智慧家居中的語音助手、客服機器人提供的自動問答以及教育領域中的智能教學助手。通過這次專題的研究和實作，我們希望進一步推動語音技術與人工智慧的融合發展，為未來的智慧生活帶來更多可能性。
 
 ---
-## 系統架構
+## System Architecture
 ### 硬體部分
 
 * AMB82-mini微控制器：負責初步處理語音輸入和數據傳輸。
@@ -86,7 +86,7 @@
 <p><img width="50%" height="50%" src="https://github.com/pp2457/portable_ChatGPT/blob/d3523de57f00304110b467f539701af62c7ad2a1/assets/FlowChart.jpg?raw=true"></p>
 
 ---
-## 程式碼
+## Code
 AMB82-mini in Arduino IDE: [https://github.com/pp2457/portable_ChatGPT/blob/4c51eb501ad28c4968a9be072aff64677aa69bdc/gistfile1.py](https://github.com/pp2457/portable_ChatGPT/blob/4c51eb501ad28c4968a9be072aff64677aa69bdc/gistfile1.py)
 ```
 /*
