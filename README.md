@@ -362,7 +362,7 @@ void encodeMP4andsendHttpPostRequest()
 }
 ```
 
-Sever: [https://gist.github.com/cyz0725/b24eab9d41c3a8ee35091aa5009131e3](https://gist.github.com/cyz0725/b24eab9d41c3a8ee35091aa5009131e3)
+Sever: [https://github.com/pp2457/portable_ChatGPT/blob/88df36f57f1b0887c4aa3be76dfd9119792797f6/server.py)
 ```
 ## To run server: python AmebaPro2_whisper_llm_server.py
 ## To run client: RecordMP4_HTTP_Post_Audio.ino
@@ -472,61 +472,6 @@ async def post_audio(data: Base64Data):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=5000, log_level="info")
-```
-### Server: 
-model_name = "microsoft/Phi-3-mini-128k-instruct"<br>
-**Code:** [AmebaPro2_Whisper_LLM_server.py](https://github.com/rkuo2000/portable-ChatGPT/blob/main/AmebaPro2_Whisper_LLM_server.py)<br>
-```
-@app.post("/audio")
-async def post_audio(data: Base64Data):
-    try:
-        #Decode the base64 string
-        decoded_data = base64.b64decode(data.base64_string)
-        
-        # print(decoded_data)
-        #Save the decoded data to an MP4 file
-        with open("output.mp4", "wb") as f:
-            f.write(decoded_data)
-      
-        # Whisper transcribe
-        result = ASR.transcribe("output.mp4",fp16=False)
-        header1 = "ASR: "
-        print(header1+result["text"])
-
-        # LLM generate
-        prompt = result["text"]
-        input_ids = tokenizer.encode(prompt, return_tensors="pt").to("cuda")
-        output = LLM.generate(input_ids, max_length=128, num_beams=5, no_repeat_ngram_size=2, pad_token_id=tokenizer.eos_token_id, do_sample=True)
-        generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-        header2="LLM: "
-        print(header2+generated_text) 
-        #return Response(header2+generated_text)
-        textout = generated_text.split("</s>")[-1] # for Phi-3
-        return Response(header2+textout)
-        return Response(header2+textout)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-```
-
-### Client
-**Code:** [RecordMP4_HTTP_Post_Audio_TFTLCD.ino](https://github.com/rkuo2000/portable-ChatGPT/blob/main/RecordMP4_HTTP_Post_Audio_TFTLCD.ino)<br>
-```
-#define TFT_RESET 5
-#define TFT_DC    4
-#define TFT_CS    SPI_SS
-
-AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET);
-
-#define ILI9341_SPI_FREQUENCY 20000000
-
-#define FILENAME "TestRecordingAudioOnly.mp4"
-
-char ssid[] = "Your SSID";    // your network SSID (Home WiFi or Smartphone Hotspot)
-char pass[] = "Your Password";        // your network password
-int status = WL_IDLE_STATUS;
-
-char server[] = "123.195.32.57";   // the server IP running HTTP server on PC
-#define PORT 5000
 ```
 
 ---
