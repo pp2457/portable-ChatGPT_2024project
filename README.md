@@ -1,6 +1,6 @@
 # portable-ChatGPT
 
-## team workers：
+## Team Workers:
 ```電機3B 01053104 游恩傑```
 ```電機3B 01089001 陳宜真```
 ```電機3B 01153205 彭姸蓁```
@@ -26,11 +26,11 @@
 ### 內容
 旨在設計並實作一個智慧語音回覆系統。系統以AMB82-mini微控制器和ILI9341 TFT LCD顯示屏為硬體基礎，透過與伺服器的連接，使用先進的LLM進行語音處理和答案生成。最終目標是接受語音輸入並在顯示屏上顯示相應的回覆。
 
-### 技術細節
-* 語音處理技術
-* 使用麥克風模組進行語音捕獲。
-* 對語音數據進行前處理，如去噪和特徵提取。
-* 伺服器和LLM模型
+### Prototype Features
+1. Audio/Speech Recongition
+2. Post Audio to LLM server
+3. Receive Generated-Text from LLM server
+4. Display Text on TFT-LCD
 
 在伺服器上配置高性能的大規模語言模型（如GPT-4）進行語音識別和自然語言處理。
 通過API接口實現微控制器與伺服器之間的數據交互。
@@ -78,12 +78,11 @@
 * [Amebapro2 AMB82-mini Arduino getting started](https://www.amebaiot.com/en/amebapro2-amb82-mini-arduino-getting-started/)
 
 ---
-## System Diagram
+## System Block Diagram
+* Portable-ChatGPT System Diagrams
 <p><img width="50%" height="50%" src="https://github.com/pp2457/portable_ChatGPT/blob/85dcdfbe61561577165294c484b3548a1e87047e/assets/Portable-ChatGPT_System_Diagram.png?raw=true"></p>
 
----
-## Flow Chart
-
+* Development Kit Diagram : AMB82-MINI, ILI9341 LCD 240x320, PAM8403
 <p><img width="50%" height="50%" src="https://github.com/pp2457/portable_ChatGPT/blob/d3523de57f00304110b467f539701af62c7ad2a1/assets/FlowChart.jpg?raw=true"></p>
 
 ---
