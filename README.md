@@ -27,7 +27,7 @@
 旨在設計並實作一個智慧語音回覆系統。系統以AMB82-mini微控制器和ILI9341 TFT LCD顯示屏為硬體基礎，透過與伺服器的連接，使用先進的LLM進行語音處理和答案生成。最終目標是接受語音輸入並在顯示屏上顯示相應的回覆。
 
 ### Prototype Features
-1. Audio/Speech Recongition
+1. Audio/Speech Recognition
 2. Post Audio to LLM server
 3. Receive Generated-Text from LLM server
 4. Display Text on TFT-LCD
@@ -405,7 +405,7 @@ void encodeMP4andsendHttpPostRequest()
 }
 ```
 
-Sever: [https://github.com/pp2457/portable_ChatGPT/blob/88df36f57f1b0887c4aa3be76dfd9119792797f6/server.py)
+Sever: [https://github.com/pp2457/portable_ChatGPT/blob/88df36f57f1b0887c4aa3be76dfd9119792797f6/server.py](https://github.com/pp2457/portable_ChatGPT/blob/88df36f57f1b0887c4aa3be76dfd9119792797f6/server.py)
 ```
 ## To run server: python AmebaPro2_whisper_llm_server.py
 ## To run client: RecordMP4_HTTP_Post_Audio.ino
